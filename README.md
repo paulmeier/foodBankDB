@@ -1,2 +1,2 @@
 # foodBankDB
-Database administration of distributions and donors
+Database administration tracking of distributions and donors
