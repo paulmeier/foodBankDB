@@ -32,9 +32,9 @@ set_include_path(get_include_path() . PATH_SEPARATOR . COMMON);
 // parameters for Database
 $cfg['db']['driver']  ='mySQL';                                     // DB type
 $cfg['db']['host']    ='localhost';                                 // DB server
-$cfg['db']['name']    ='midwestfoodbank_mfbdb';                                  // DB name
-$cfg['db']['user']    ='mfbadmin';                                  // DB user id
-$cfg['db']['password']='mfb553';                                  // DB password
+$cfg['db']['name']    ='foodbank_fbdb';                                  // DB name
+$cfg['db']['user']    ='fbadmin';                                  // DB user id
+$cfg['db']['password']='password';                                  // DB password
 // set DSN only if database not defined through Windows (ODBC DSN-less connection)
 // $cfg['db']['dsn'] = 'Driver={Microsoft Access Driver (*.mdb)}; DBQ='.$cfg['db']['name'];
 
@@ -71,11 +71,11 @@ $timeout_msg = "For security reasons, you have been logged out due to ".$minutes
 // set your own names and values 
 
 define ('DATE_FORMAT', "m-d-Y H:i:s");
-define ('MFB_URL', 'http://www.midwestfoodbank.org');
+define ('MFB_URL', 'http://www.sample.org');
 
 // variables for Email - 'from' addresses
-$newUser_from      = 'mfb@midwestfoodbank.org' ;                      // from address for email sent to new user
-$newPerson_from       = 'mfb@midwestfoodbank.org' ;                      // from address for email sent to new applicant
-$intentToStay_from = 'mfb@midwestfoodbank.org' ;                      // from address for email sent to new resident
+$newUser_from      = 'sample@sample.org' ;                      // from address for email sent to new user
+$newPerson_from       = 'sample@sample.org' ;                      // from address for email sent to new applicant
+$intentToStay_from = 'sample@sample.org' ;                      // from address for email sent to new resident
 
 ?>
