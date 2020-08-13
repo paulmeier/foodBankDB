@@ -6,7 +6,7 @@
 // set view values
 include 'std_view_attributes.php';
 
-$objView->assign('page_title','MFB Person Form') ;
+$objView->assign('page_title','FB Person Form') ;
 $objView->assign('page_heading','Person Form');
 $objView->assign('view_content','personForm.inc.tpl');
 
