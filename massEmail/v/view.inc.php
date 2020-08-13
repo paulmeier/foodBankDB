@@ -5,7 +5,7 @@
 
 // set view values
 include 'std_view_attributes.php';
-$objView->assign('page_title','Midwest Food Bank') ;
+$objView->assign('page_title','Food Bank') ;
 $objView->assign('page_heading','Mass Email');
 $objView->assign('view_content','massEmail.inc.tpl');
 
